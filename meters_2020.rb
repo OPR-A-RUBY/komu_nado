@@ -11,5 +11,6 @@ def info_20_05
 	meter_cook_room_hot_ =   199
 	meter_cook_room_cold = 1_105
 	meter_cook_room_hot_ =   451
-	 
+
+	puts 'Test'	
 end
