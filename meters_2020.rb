@@ -3,14 +3,15 @@
 
 def info_20_05
 
-	date = '2020-05-23'
+	@date = '2020-05-23'
 
-	meter_electricity = 27_800
+	@meter_electricity = 27_800
 
-	meter_cook_room_cold =   290
-	meter_cook_room_hot_ =   199
-	meter_cook_room_cold = 1_105
-	meter_cook_room_hot_ =   451
+	@meter_cook_room_cold =   290
+	@meter_cook_room_hot_ =   199
+	@meter_both_room_cold = 1_105
+	@meter_both_room_hot_ =   451
 
-	puts 'Test'	
+	put_info
+	
 end
